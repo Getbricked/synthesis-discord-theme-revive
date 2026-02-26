@@ -6,10 +6,12 @@
     width: calc(100% - var(--custom-guild-list-width) - 6 * $sidebar-border-width) !important;
 }
 
+// Span server list to the bottom
 .guilds__5e434 {
     margin-bottom: 0px;
 }
 
+// Remove shadow under server list
 .wrapper_ef3116 {
     mask: none;
     -webkit-mask: none;

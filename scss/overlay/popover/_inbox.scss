@@ -1,0 +1,11 @@
+@use "../../top/vars" as *;
+
+// Inbox
+.jumpButton_ed0c8c {
+    border-radius: $item-spacing;
+    background-color: transparent;
+
+    .text_ed0c8c {
+        color: rgb($color-blurple);
+    }
+}

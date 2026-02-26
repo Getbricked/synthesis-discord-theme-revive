@@ -1,0 +1,32 @@
+@use "../../../../top/vars" as *;
+
+// Registered Games
+#game-activity-tab {
+    .notDetected_cc46f0,
+    .nowPlaying_cc46f0 {
+        border-radius: calc(2 * $item-spacing);
+    }
+
+    .game_cc46f0 {
+        box-shadow: none;
+
+        .gameName_cc46f0 {
+            color: var(--header-primary);
+        }
+
+        .gameNameInput_cc46f0:focus,
+        .gameNameInput_cc46f0:hover {
+            background-color: transparentize($color-background, 0.3);
+            border-color: transparent;
+        }
+
+        .lastPlayed_cc46f0,
+        .overlayStatusText__668e1 {
+            color: var(--header-secondary);
+        }
+
+        .overlayToggleIconOn-21NN2N .fill_cc46f0 {
+            fill: rgb($color-foreground);
+        }
+    }
+}

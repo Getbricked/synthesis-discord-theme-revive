@@ -1,0 +1,19 @@
+@forward "./createserver";
+@forward "./deletemessage";
+@forward "./image";
+@forward "./serverboost";
+@forward "./serverswitcher";
+@forward "./uploadimage";
+@forward "./userprofile";
+@forward "./viewreactions";
+@forward "./whatsnew";
+
+@use "../../top/vars" as *;
+@use "../../top/box";
+
+// Modals
+.root__49fc1:not(.modal_b0827a, .carouselModal_d2b9a1) {
+    @include box.blue;
+    overflow: hidden;
+    background-color: transparentize($color-shadow, 0.7) !important;
+}

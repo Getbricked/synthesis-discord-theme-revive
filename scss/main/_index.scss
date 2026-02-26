@@ -8,6 +8,7 @@
 @forward "./servers";
 @forward "./title";
 @forward "./titlebar";
+@forward "./user-panel";
 
 @use "../top/vars" as *;
 @use "../top/tint";
@@ -42,8 +43,9 @@ body {
     // Scanline overlay over server and channel sidebars (when not in fullscreen mode)
     &:not(:has(.fullScreen_cb9592))::before {
         margin: $sidebar-spacing;
-        width: $sidebar-width + $channels-width + $sidebar-border-width;
-        height: calc(100% - (2 * ($sidebar-spacing + $sidebar-border-width)));
+        margin-top: 2 * ($sidebar-spacing + $sidebar-border-width);
+        width: $sidebar-width;
+        height: calc(100% - (3 * $sidebar-spacing + 4 * $sidebar-border-width));
         @include box.orange;
         @include tint.scanline-overlay;
     }

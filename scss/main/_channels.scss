@@ -5,6 +5,10 @@
 .sidebar__5e434 {
     margin: $sidebar-spacing 0;
 
+    &::after {
+        background: transparent;
+    }
+
     // Header
     .header_f37cb1 {
         box-shadow: none;

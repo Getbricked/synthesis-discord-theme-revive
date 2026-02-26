@@ -4,8 +4,7 @@
 
 // Servers sidebar
 .guilds__5e434 {
-    margin: $sidebar-spacing;
-    margin-right: 0;
+    margin-left: $sidebar-spacing;
     @include box.orange;
 
     .platform-osx & .scroller_ef3116,

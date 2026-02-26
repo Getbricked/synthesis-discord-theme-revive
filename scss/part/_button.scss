@@ -67,7 +67,7 @@
 
     .bd-button,
     #bd-pub-button {
-    @include button.button($color-button);
+        @include button.button($color-button);
     }
 
     .bd-button.bd-button-danger {
